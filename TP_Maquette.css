@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Roboto";
+    src: url('Polices/Roboto-Regular.ttf')
+}
+
+html {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+/*Header*/
+
+header nav ul li {
+    list-style-type: none;
+}
+
+.banniere {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#image {
+    height: 100px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    /*centre verticalement*/
+}
+
+.menu {
+    display: flex;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.menu li {
+    display: flex;
+    align-content: flex-end;
+    padding-left: 20px;
+}
