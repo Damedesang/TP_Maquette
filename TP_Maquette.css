@@ -159,5 +159,37 @@ h2 {
 /* #endregion */
 
 /* #region footer */
+footer {
+    background-color: indigo;
+    color: white;
+    font-family: "Roboto-Thin", Arial, Helvetica, sans-serif;
+}
+
+.localisation {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.icone {
+    text-align: center;
+}
+
+.menus {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+h6 {
+    color: gray;
+    font-family: "Roboto-Thin", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-bottom: -1em;
+}
+
+.Coordonnees p {
+    margin-bottom: -1em;
+}
 
 /* #endregion */
